@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+20.MainWork
+</name>
+</assembly>
+<members>
+<member name="T:_20.MainWork.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:_20.MainWork.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:_20.MainWork.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:_20.MainWork.frmFreeInput">
+ <summary>
+ 画面➀
+ 
+   Create: 2019/05/11 H.Tamitani
+ 
+ </summary>
+</member>
+<member name="M:_20.MainWork.frmFreeInput.frmFreeInput_Load(System.Object,System.EventArgs)">
+ <summary>
+ フォームロード
+ 
+   Create: 2019/05/11 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:_20.MainWork.frmSubMenu">
+ <summary>
+ サブメニュー
+ 
+  Create: 2019/05/11 H.Tamitani
+ 
+ </summary>
+</member>
+<member name="M:_20.MainWork.frmSubMenu.btnFreeInput_Click(System.Object,System.EventArgs)">
+ <summary>
+ 登録画面➀
+ 
+   Create: 2019/05/11 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmSubMenu.frmSubMenu_Load(System.Object,System.EventArgs)">
+ <summary>
+ フォームロード
+ 
+   Create: 2019/05/11 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
