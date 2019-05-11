@@ -1,0 +1,12 @@
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\bin\Debug\10.SysCommon.exe.config
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\bin\Debug\10.SysCommon.exe
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\bin\Debug\10.SysCommon.pdb
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\bin\Debug\10.SysCommon.xml
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\10.SysCommon.vbprojAssemblyReference.cache
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\_10.SysCommon.frmBaseForm.resources
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\_10.SysCommon.Resources.resources
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\10.SysCommon.vbproj.GenerateResource.cache
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\10.SysCommon.vbproj.CoreCompileInputs.cache
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\10.SysCommon.exe
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\10.SysCommon.xml
+C:\Work\VBNET\FREESYSTEM\10.SysCommon\obj\Debug\10.SysCommon.pdb
