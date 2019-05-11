@@ -1,0 +1,10 @@
+C:\Work\VBNET\FREESYSTEM\01.Common\bin\Debug\_01.Common.exe.config
+C:\Work\VBNET\FREESYSTEM\01.Common\bin\Debug\_01.Common.exe
+C:\Work\VBNET\FREESYSTEM\01.Common\bin\Debug\_01.Common.pdb
+C:\Work\VBNET\FREESYSTEM\01.Common\bin\Debug\_01.Common.xml
+C:\Work\VBNET\FREESYSTEM\01.Common\obj\Debug\_01.Common.Resources.resources
+C:\Work\VBNET\FREESYSTEM\01.Common\obj\Debug\01.Common.vbproj.GenerateResource.cache
+C:\Work\VBNET\FREESYSTEM\01.Common\obj\Debug\01.Common.vbproj.CoreCompileInputs.cache
+C:\Work\VBNET\FREESYSTEM\01.Common\obj\Debug\_01.Common.exe
+C:\Work\VBNET\FREESYSTEM\01.Common\obj\Debug\_01.Common.xml
+C:\Work\VBNET\FREESYSTEM\01.Common\obj\Debug\_01.Common.pdb
