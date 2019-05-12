@@ -5,7 +5,4 @@
 ''' 
 ''' </summary>
 Public Class frmBaseForm
-    Private Sub lblSysName_Click(sender As Object, e As EventArgs)
-
-    End Sub
 End Class

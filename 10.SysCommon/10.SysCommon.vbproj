@@ -73,6 +73,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cls\clsComboBoxPlus.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="frm\frmBaseForm.Designer.vb">
       <DependentUpon>frmBaseForm.vb</DependentUpon>
     </Compile>

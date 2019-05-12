@@ -1,4 +1,13 @@
-﻿Public Class clsConst
+﻿Option Strict On
+Option Explicit On
+
+''' <summary>
+''' 定数　クラス
+''' 
+'''   Create: 2019/05/12 H.Tamitani
+''' 
+''' </summary>
+Public Class clsConst
 
     ' メッセージアイコン
     Public msbiInfo As MessageBoxIcon = MessageBoxIcon.Information

@@ -24,7 +24,7 @@
 </member>
 <member name="T:_20.MainWork.frmFreeInput">
  <summary>
- 画面➀
+ 登録画面
  
    Create: 2019/05/11 H.Tamitani
  
@@ -35,6 +35,91 @@
  フォームロード
  
    Create: 2019/05/11 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeInput.btnFrmSubInput_Click(System.Object,System.EventArgs)">
+ <summary>
+ 登録サブ画面　呼び出し
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeInput.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じるボタン　クリック
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeInput.frmFreeInput_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ フォーム　キーダウン
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:_20.MainWork.frmFreeSubInput">
+ <summary>
+ 登録サブ画面
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ 
+ </summary>
+</member>
+<member name="M:_20.MainWork.frmFreeSubInput.#ctor">
+ <summary>
+ Ｎｅｗ
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+</member>
+<member name="M:_20.MainWork.frmFreeSubInput.frmFreeSubInput_Load(System.Object,System.EventArgs)">
+ <summary>
+ フォームロード
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeSubInput.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じるボタン　クリック
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeSubInput.btnInsert_Click(System.Object,System.EventArgs)">
+ <summary>
+ 登録ボタン　クリック
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeSubInput.txtKanriCd_Validating(System.Object,System.ComponentModel.CancelEventArgs)">
+ <summary>
+ 管理コード　Validating
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeSubInput.frmFreeSubInput_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ フォーム　キーダウン
+ 
+   Create: 2019/05/12 H.Tamitani
  
  </summary>
  <param name="sender"></param>

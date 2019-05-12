@@ -22,5 +22,13 @@ _01.Common
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:_01.Common.clsConst">
+ <summary>
+ 定数　クラス
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+</member>
 </members>
 </doc>

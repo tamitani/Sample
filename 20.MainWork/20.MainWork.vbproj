@@ -48,7 +48,11 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="C1.Win.4, Version=4.0.20191.362, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04" />
+    <Reference Include="C1.Win.C1Command.4, Version=4.0.20191.362, Culture=neutral, PublicKeyToken=e808566f358766d8" />
+    <Reference Include="C1.Win.C1Input.4, Version=4.0.20191.362, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -73,11 +77,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmFreeInput.vb">
+    <Compile Include="frm\frmFreeInput.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmFreeInput.Designer.vb">
+    <Compile Include="frm\frmFreeInput.Designer.vb">
       <DependentUpon>frmFreeInput.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm\frmFreeSubInput.Designer.vb">
+      <DependentUpon>frmFreeSubInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm\frmFreeSubInput.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,24 +105,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="frmSubMenu.Designer.vb">
+    <Compile Include="frm\frmSubMenu.Designer.vb">
       <DependentUpon>frmSubMenu.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmSubMenu.vb">
+    <Compile Include="frm\frmSubMenu.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmFreeInput.resx">
+    <EmbeddedResource Include="frm\frmFreeInput.resx">
       <DependentUpon>frmFreeInput.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm\frmFreeSubInput.resx">
+      <DependentUpon>frmFreeSubInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSubMenu.resx">
+    <EmbeddedResource Include="frm\frmSubMenu.resx">
       <DependentUpon>frmSubMenu.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

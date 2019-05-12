@@ -23,11 +23,11 @@ Partial Class frmBaseForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.tlpHeader = New System.Windows.Forms.TableLayoutPanel()
-        Me.tlpFooter = New System.Windows.Forms.TableLayoutPanel()
         Me.lblSysName = New System.Windows.Forms.Label()
         Me.lblLogiNm = New System.Windows.Forms.Label()
-        Me.lblDateTime = New System.Windows.Forms.Label()
+        Me.tlpFooter = New System.Windows.Forms.TableLayoutPanel()
         Me.lblMsg = New System.Windows.Forms.Label()
+        Me.lblDateTime = New System.Windows.Forms.Label()
         Me.tlpHeader.SuspendLayout()
         Me.tlpFooter.SuspendLayout()
         Me.SuspendLayout()
@@ -49,23 +49,6 @@ Partial Class frmBaseForm
         Me.tlpHeader.Size = New System.Drawing.Size(864, 32)
         Me.tlpHeader.TabIndex = 0
         '
-        'tlpFooter
-        '
-        Me.tlpFooter.BackColor = System.Drawing.Color.Cornsilk
-        Me.tlpFooter.ColumnCount = 2
-        Me.tlpFooter.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.tlpFooter.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 203.0!))
-        Me.tlpFooter.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 258.0!))
-        Me.tlpFooter.Controls.Add(Me.lblMsg, 0, 0)
-        Me.tlpFooter.Controls.Add(Me.lblDateTime, 1, 0)
-        Me.tlpFooter.Location = New System.Drawing.Point(0, 288)
-        Me.tlpFooter.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.tlpFooter.Name = "tlpFooter"
-        Me.tlpFooter.RowCount = 1
-        Me.tlpFooter.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.tlpFooter.Size = New System.Drawing.Size(864, 32)
-        Me.tlpFooter.TabIndex = 1
-        '
         'lblSysName
         '
         Me.lblSysName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -86,15 +69,22 @@ Partial Class frmBaseForm
         Me.lblLogiNm.TabIndex = 5
         Me.lblLogiNm.Text = "lblLogiNm"
         '
-        'lblDateTime
+        'tlpFooter
         '
-        Me.lblDateTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblDateTime.Location = New System.Drawing.Point(665, 4)
-        Me.lblDateTime.Margin = New System.Windows.Forms.Padding(4)
-        Me.lblDateTime.Name = "lblDateTime"
-        Me.lblDateTime.Size = New System.Drawing.Size(193, 24)
-        Me.lblDateTime.TabIndex = 3
-        Me.lblDateTime.Text = "lblDateTime"
+        Me.tlpFooter.BackColor = System.Drawing.Color.Cornsilk
+        Me.tlpFooter.ColumnCount = 2
+        Me.tlpFooter.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.tlpFooter.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 203.0!))
+        Me.tlpFooter.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 258.0!))
+        Me.tlpFooter.Controls.Add(Me.lblMsg, 0, 0)
+        Me.tlpFooter.Controls.Add(Me.lblDateTime, 1, 0)
+        Me.tlpFooter.Location = New System.Drawing.Point(0, 288)
+        Me.tlpFooter.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.tlpFooter.Name = "tlpFooter"
+        Me.tlpFooter.RowCount = 1
+        Me.tlpFooter.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.tlpFooter.Size = New System.Drawing.Size(864, 32)
+        Me.tlpFooter.TabIndex = 1
         '
         'lblMsg
         '
@@ -106,6 +96,16 @@ Partial Class frmBaseForm
         Me.lblMsg.TabIndex = 4
         Me.lblMsg.Text = "lblMsg"
         '
+        'lblDateTime
+        '
+        Me.lblDateTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblDateTime.Location = New System.Drawing.Point(665, 4)
+        Me.lblDateTime.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblDateTime.Name = "lblDateTime"
+        Me.lblDateTime.Size = New System.Drawing.Size(193, 24)
+        Me.lblDateTime.TabIndex = 3
+        Me.lblDateTime.Text = "lblDateTime"
+        '
         'frmBaseForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
@@ -115,6 +115,7 @@ Partial Class frmBaseForm
         Me.Controls.Add(Me.tlpFooter)
         Me.Controls.Add(Me.tlpHeader)
         Me.Font = New System.Drawing.Font("Meiryo UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.KeyPreview = True
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmBaseForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

@@ -20,3 +20,10 @@ C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\20.MainWork.vbproj.CopyComplete
 C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\20.MainWork.exe
 C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\20.MainWork.xml
 C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\20.MainWork.pdb
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\_20.MainWork.frmFreeSubInput.resources
+C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.4.dll
+C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.C1Command.4.dll
+C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.C1Input.4.dll
+C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.C1Command.4.xml
+C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.C1Input.4.xml
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\20.MainWork.exe.licenses

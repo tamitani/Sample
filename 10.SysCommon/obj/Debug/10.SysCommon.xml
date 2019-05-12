@@ -22,6 +22,49 @@
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:_10.SysCommon.clsComboBoxPlus">
+ <summary>
+ コンボボックス　クラス
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+</member>
+<member name="P:_10.SysCommon.clsComboBoxPlus.ReadOnly">
+ <summary>
+ (Property)ＲｅａｄＯｎｌｙ
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:_10.SysCommon.clsComboBoxPlus.#ctor">
+ <summary>
+ Ｎｅｗ
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+</member>
+<member name="M:_10.SysCommon.clsComboBoxPlus.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ (Overrides)キーダウン
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:_10.SysCommon.clsComboBoxPlus.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ (Overrides)キーアップ
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:_10.SysCommon.clsComboBoxPlus.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ (Overrides)キープレス
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+ <param name="e"></param>
+</member>
 <member name="T:_10.SysCommon.frmBaseForm">
  <summary>
  ベース　フォーム
