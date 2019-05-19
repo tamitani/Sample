@@ -27,3 +27,10 @@ C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.C1Input.4.dll
 C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.C1Command.4.xml
 C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\C1.Win.C1Input.4.xml
 C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\20.MainWork.exe.licenses
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\_20.MainWork.frmKo.resources
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\_20.MainWork.frmOya.resources
+C:\Work\VBNET\FREESYSTEM\20.MainWork\bin\Debug\Oracle.DataAccess.dll
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\_20.MainWork.frmLinq.resources
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\_20.MainWork.frmList.resources
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\_20.MainWork.frmHikisuMain.resources
+C:\Work\VBNET\FREESYSTEM\20.MainWork\obj\Debug\_20.MainWork.frmHikisuSub.resources

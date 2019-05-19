@@ -30,6 +30,14 @@
  
  </summary>
 </member>
+<member name="M:_20.MainWork.frmFreeInput.#ctor">
+ <summary>
+ Ｎｅｗ
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+</member>
 <member name="M:_20.MainWork.frmFreeInput.frmFreeInput_Load(System.Object,System.EventArgs)">
  <summary>
  フォームロード
@@ -63,6 +71,21 @@
  </summary>
  <param name="sender"></param>
  <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeInput.btnSearch_Click(System.Object,System.EventArgs)">
+ <summary>
+ 検索ボタン　クリック
+ 
+   Create: 2019/05/12 H.Tamitani
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmFreeInput.initGrid">
+ <summary>
+ グリッド初期化
+ </summary>
 </member>
 <member name="T:_20.MainWork.frmFreeSubInput">
  <summary>
@@ -125,6 +148,114 @@
  <param name="sender"></param>
  <param name="e"></param>
 </member>
+<member name="M:_20.MainWork.frmHikisuMain.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ セット
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmHikisuMain.Button3_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じる
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmHikisuMain.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ 呼び出し
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmHikisuSub.Button3_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じる
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmKo.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じる
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmKo.btnOk_Click(System.Object,System.EventArgs)">
+ <summary>
+ OK
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:_20.MainWork.frmLinq">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="M:_20.MainWork.frmLinq.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ データ取得
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmLinq.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ LINQ
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmLinq.GetName(System.Int32,System.String@)">
+ <summary>
+ 名称取得
+ </summary>
+ <param name="strNo"></param>
+ <param name="strName"></param>
+ <returns></returns>
+</member>
+<member name="M:_20.MainWork.frmLinq.Button3_Click(System.Object,System.EventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="P:_20.MainWork.frmOya.MCode">
+ <summary>
+ コード
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:_20.MainWork.frmOya.MName">
+ <summary>
+ 名称
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:_20.MainWork.frmOya.MUpd">
+ <summary>
+ 戻り
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:_20.MainWork.frmOya.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ 子画面
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmOya.btnSet_Click(System.Object,System.EventArgs)">
+ <summary>
+ セット
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
 <member name="T:_20.MainWork.frmSubMenu">
  <summary>
  サブメニュー
@@ -149,6 +280,34 @@
  
    Create: 2019/05/11 H.Tamitani
  
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmSubMenu.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ frmList
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmSubMenu.Button3_Click(System.Object,System.EventArgs)">
+ <summary>
+ frmLinq
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmSubMenu.Button4_Click(System.Object,System.EventArgs)">
+ <summary>
+ frmList
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_20.MainWork.frmSubMenu.Button5_Click(System.Object,System.EventArgs)">
+ <summary>
+ 別フォーム(引数)
  </summary>
  <param name="sender"></param>
  <param name="e"></param>

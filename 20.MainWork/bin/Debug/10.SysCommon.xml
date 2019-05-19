@@ -65,6 +65,36 @@
  </summary>
  <param name="e"></param>
 </member>
+<member name="M:_10.SysCommon.ClsOracle.SubOracleOpen">
+ <summary>
+ オラクル　接続
+ </summary>
+</member>
+<member name="M:_10.SysCommon.ClsOracle.SubOracleClose">
+ <summary>
+ オラクル　切断
+ </summary>
+</member>
+<member name="M:_10.SysCommon.ClsOracle.FncOracleSelect(System.String,System.Data.DataTable)">
+ <summary>
+ データ抽出(Select)
+ </summary>
+ <param name="strSql">Sql文</param>
+ <param name="dt">データテーブル</param>
+ <returns>True:正常 False:異常</returns>
+</member>
+<member name="M:_10.SysCommon.ClsOracle.SubOracleExecute(System.String)">
+ <summary>
+ Sql発行
+ </summary>
+ <param name="strSql"></param>
+</member>
+<member name="M:_10.SysCommon.ClsOracle.FncOraclePlSql">
+ <summary>
+ ＰＬＳＱＬ実行
+ </summary>
+ <returns></returns>
+</member>
 <member name="T:_10.SysCommon.frmBaseForm">
  <summary>
  ベース　フォーム

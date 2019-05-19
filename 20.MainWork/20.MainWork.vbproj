@@ -24,6 +24,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>20.MainWork.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -90,6 +91,42 @@
     <Compile Include="frm\frmFreeSubInput.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm\frmHikisuMain.Designer.vb">
+      <DependentUpon>frmHikisuMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm\frmHikisuMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm\frmHikisuSub.Designer.vb">
+      <DependentUpon>frmHikisuSub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm\frmHikisuSub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm\frmKo.Designer.vb">
+      <DependentUpon>frmKo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm\frmKo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm\frmLinq.Designer.vb">
+      <DependentUpon>frmLinq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm\frmLinq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm\frmList.Designer.vb">
+      <DependentUpon>frmList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm\frmList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm\frmOya.Designer.vb">
+      <DependentUpon>frmOya.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm\frmOya.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -118,6 +155,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm\frmFreeSubInput.resx">
       <DependentUpon>frmFreeSubInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm\frmHikisuMain.resx">
+      <DependentUpon>frmHikisuMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm\frmHikisuSub.resx">
+      <DependentUpon>frmHikisuSub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm\frmKo.resx">
+      <DependentUpon>frmKo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm\frmLinq.resx">
+      <DependentUpon>frmLinq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm\frmList.resx">
+      <DependentUpon>frmList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm\frmOya.resx">
+      <DependentUpon>frmOya.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
